@@ -7,14 +7,6 @@
     "support_url": "https://github.com/SrMouraSilva/google-meet-plugin/issues",
     "min_server_version": "5.26.0",
     "icon_path": "assets/starter-template-icon.svg",
-    "server": {
-        "executables": {
-            "linux-amd64": "server/dist/plugin-linux-amd64",
-            "darwin-amd64": "server/dist/plugin-darwin-amd64",
-            "darwin-arm64": "server/dist/plugin-darwin-arm64",
-            "windows-amd64": "server/dist/plugin-windows-amd64.exe"
-        }
-    },
     "webapp": {
         "bundle_path": "webapp/dist/main.js"
     },

@@ -1,5 +1,5 @@
 import en from 'i18n/en.json';
-import pt from 'i18n/pt.json';
+import pt from 'i18n/pt_BR.json';
 
 export const getTranslations= (locale: string) => {
     switch (locale) {

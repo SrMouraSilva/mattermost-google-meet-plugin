@@ -1,1 +1,1 @@
-export const GOOGLE_MEET_MESSAGE = 'google_meet_post_type';
+export const GOOGLE_MEET_MESSAGE = 'custom_meet_post_type';

@@ -2,39 +2,40 @@
 // See License for license information.
 
 import React, { FC } from 'react';
-
-import {IconMeet} from './icon';
+import {FormattedMessage} from 'react-intl';
 
 import {makeStyleFromTheme} from 'mattermost-redux/utils/theme_utils';
-import {FormattedMessage} from 'react-intl';
 import {Theme} from 'mattermost-redux/types/preferences';
+
+import { IconMeet } from './icon';
 
 
 interface PostTypeGoogleMeetProps {
     theme: Theme;
+    post?: any;
 }
 
 /**
  * Based on https://github.com/mattermost/mattermost-plugin-zoom
  */
-export const PostTypeGoogleMeet: FC<PostTypeGoogleMeetProps> = ({theme, post, meeting_link}) => {
+export const PostTypeGoogleMeet: FC<PostTypeGoogleMeetProps> = ({theme, post}) => {
     const style = getStyle(theme);
     const props = post.props || {};
 
     return (
     <div className='attachment attachment--pretext'>
         <div className='attachment__thumb-pretext'>
-            <FormattedMessage id='message.pretext' />
+            <FormattedMessage id='mattermost_meet_plugin.message.pretext' />
         </div>
         <div className='attachment__content'>
             <div className='clearfix attachment__container'>
                 <h5 className='mt-1' style={style.title}>
-                    <FormattedMessage id='message.title' />
+                    <FormattedMessage id='mattermost_meet_plugin.message.title' />
                 </h5>
-                    <FormattedMessage id='message.subtitle' />{ `: ${props.call_name}`}
+                    <FormattedMessage id='mattermost_meet_plugin.message.subtitle' />{ `: ${props.call_name}`}
                 <div>
                     <div style={style.body}>
-                        <Link link={meeting_link} theme={theme} />
+                        <Link link={props.meeting_link} theme={theme} />
                     </div>
                 </div>
             </div>
@@ -60,7 +61,7 @@ const Link: FC<LinkProps> = ({link, theme}) => {
             href={link}
         >
             <IconMeet />
-            <FormattedMessage id='message.button' />
+            <FormattedMessage id='mattermost_meet_plugin.message.button' />
         </a>
     );
 }
