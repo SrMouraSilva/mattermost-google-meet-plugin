@@ -1,6 +1,6 @@
 {
     "id": "mattermost-google-meet-plugin",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "name": "Google Meet Plugin",
     "description": "Start Google Meet calls",
     "homepage_url": "https://github.com/SrMouraSilva/google-meet-plugin",
@@ -12,12 +12,6 @@
     },
     "settings_schema": {
         "header": "Google Meet Plugin configurations",
-        "settings": [{
-            "key": "OpenAutomatically",
-            "display_name": "Open a new tab automatically",
-            "type": "bool",
-            "help_text": "When true, a new tab will be oppened automatically when a user click to start a new meet",
-            "default": "false"
-        }]
+        "settings": []
     }
 }
