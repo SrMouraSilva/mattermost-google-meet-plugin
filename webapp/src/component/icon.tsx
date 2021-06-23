@@ -1,0 +1,1 @@
+export const IconMeet = () => <i className='icon fa fa-video-camera'/>;
