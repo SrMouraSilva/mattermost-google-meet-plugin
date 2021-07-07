@@ -9,9 +9,9 @@ export const getTranslations= (locale: string) => {
         case 'pt-BR':
             return pt;
         case 'fr':
-            return pt;
+            return fr;
         case 'fr-FR':
-            return pt;
+            return fr;
     }
     return en;
 }
