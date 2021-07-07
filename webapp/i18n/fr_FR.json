@@ -1,0 +1,7 @@
+{
+    "mattermost_meet_plugin.header.label": "Démarrer un appel Google Meet",
+    "mattermost_meet_plugin.message.pretext": "J'ai créé une réunion",
+    "mattermost_meet_plugin.message.title": "Google Meet",
+    "mattermost_meet_plugin.message.subtitle": "Nom de l'appel",
+    "mattermost_meet_plugin.message.button": "REJOINDRE L'APPEL"
+}
