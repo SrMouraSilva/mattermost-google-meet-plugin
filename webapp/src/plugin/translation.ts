@@ -12,6 +12,10 @@ export const getTranslations= (locale: string) => {
             return fr;
         case 'fr-FR':
             return fr;
+        case 'fr-BE':
+            return fr;
+        case 'fr-CA':
+            return fr;
     }
     return en;
 }
