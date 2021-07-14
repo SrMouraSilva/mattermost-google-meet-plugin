@@ -1,0 +1,7 @@
+{
+    "mattermost_meet_plugin.header.label": "Videokonferenz starten",
+    "mattermost_meet_plugin.message.pretext": "Ich habe eine Videokonferenz gestartet",
+    "mattermost_meet_plugin.message.title": "Google Meet",
+    "mattermost_meet_plugin.message.subtitle": "Besprechungscode",
+    "mattermost_meet_plugin.message.button": "Videokonferenz beitreten"
+}
