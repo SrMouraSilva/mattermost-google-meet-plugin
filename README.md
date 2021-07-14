@@ -28,6 +28,7 @@ We are accepting pull requests. Check some cool ideias.
 * [ ] Internationalization (web only)
   * [x] ~~English~~;
   * [x] ~~Brazilian Portuguese~~;
+  * [x] ~~German~~;
   * [ ] _add your language_;
 * [ ] Parametrization;
   * [ ] Meeting room: Random UUID based (a new meeting room for every request) or channel based (the same meeting room for each channel);
