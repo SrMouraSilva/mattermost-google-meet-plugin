@@ -25,7 +25,7 @@ No command support. Please, send pull requests :D
 
 We are accepting pull requests. Check some cool ideias.
 
-* [ ] Internationalization (web only)
+* [ ] Internationalization (web only). Check [#1](https://github.com/SrMouraSilva/mattermost-google-meet-plugin/pull/1) and [#4](https://github.com/SrMouraSilva/mattermost-google-meet-plugin/pull/4) for example how to add a new language
   * [x] ~~English~~;
   * [x] ~~Brazilian Portuguese~~;
   * [x] ~~French~~;
@@ -57,4 +57,6 @@ sh make.sh
 ## Acknowledgment
 
 * [gmccullough](https://stackoverflow.com/users/2281071/gmccullough) for the ["g.co/meet/" trick](https://stackoverflow.com/a/62313196/1524997);
-* [@lauraseidler](https://github.com/lauraseidler) and [@hmhealey](https://github.com/hmhealey) for the help with breaking changes in the version 5.35+.
+* [@lauraseidler](https://github.com/lauraseidler) and [@hmhealey](https://github.com/hmhealey) for the help with breaking changes in the version 5.35+;
+* [@lauraseidler](https://github.com/lauraseidler) and [@hmhealey](https://github.com/hmhealey) for the help with breaking changes in the version 5.35+;
+* [@yodapotatofly](https://github.com/yodapotatofly) and [@oneWaveAdrian](https://github.com/oneWaveAdrian) for translations.
