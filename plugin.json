@@ -1,6 +1,6 @@
 {
     "id": "mattermost-google-meet-plugin",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "name": "Google Meet Plugin",
     "description": "Start Google Meet calls",
     "homepage_url": "https://github.com/SrMouraSilva/google-meet-plugin",
