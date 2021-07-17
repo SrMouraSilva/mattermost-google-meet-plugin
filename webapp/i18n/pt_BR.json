@@ -1,6 +1,6 @@
 {
     "mattermost_meet_plugin.header.label": "Iniciar chamada do Google Meet",
-    "mattermost_meet_plugin.message.pretext": "Eu comecei uma reunião",
+    "mattermost_meet_plugin.message.pretext": "Eu iniciei uma reunião",
     "mattermost_meet_plugin.message.title": "Google Meet",
     "mattermost_meet_plugin.message.subtitle": "Nome da reunião",
     "mattermost_meet_plugin.message.button": "PARTICIPAR"
