@@ -15,7 +15,8 @@ export const startCall = (channel: Channel) => {
 
         const team = state.entities.teams.teams[state.entities.teams.currentTeamId];
         const callName = `${team.name}-${channel.name}`; // = uuidv4();
-        const url = `http://g.co/meet/${callName}`;
+        const trimmedCallName = callName.substring(0, 60);
+        const url = `http://g.co/meet/${trimmedCallName}`;
 
         // Open a window?
         // window.open(url);
@@ -27,7 +28,7 @@ export const startCall = (channel: Channel) => {
             message: `I have started a meeting: [${url}](${url})`,
             type: GOOGLE_MEET_MESSAGE as any,
             props: {
-                call_name: callName,
+                call_name: trimmedCallName,
                 meeting_link: url
             },
         } as any;

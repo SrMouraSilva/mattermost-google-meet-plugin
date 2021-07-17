@@ -1,5 +1,6 @@
 import en from 'i18n/en.json';
 import pt from 'i18n/pt_BR.json';
+import fr from 'i18n/fr_FR.json';
 import de from 'i18n/de_DE.json';
 
 export const getTranslations= (locale: string) => {
@@ -8,6 +9,14 @@ export const getTranslations= (locale: string) => {
             return pt;
         case 'pt-BR':
             return pt;
+        case 'fr':
+            return fr;
+        case 'fr-FR':
+            return fr;
+        case 'fr-BE':
+            return fr;
+        case 'fr-CA':
+            return fr;
         case 'de':
             return de;
         case 'de-AT':

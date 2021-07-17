@@ -28,6 +28,7 @@ We are accepting pull requests. Check some cool ideias.
 * [ ] Internationalization (web only)
   * [x] ~~English~~;
   * [x] ~~Brazilian Portuguese~~;
+  * [x] ~~French~~;
   * [x] ~~German~~;
   * [ ] _add your language_;
 * [ ] Parametrization;
