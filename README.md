@@ -30,6 +30,7 @@ We are accepting pull requests. Check some cool ideias.
   * [x] ~~Brazilian Portuguese~~;
   * [x] ~~French~~;
   * [x] ~~German~~;
+  * [x] ~~Polish~~;
   * [ ] _add your language_;
 * [ ] Parametrization;
   * [ ] Meeting room: Random UUID based (a new meeting room for every request) or channel based (the same meeting room for each channel);
