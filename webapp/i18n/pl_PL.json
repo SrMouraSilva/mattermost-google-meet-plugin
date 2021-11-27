@@ -1,0 +1,7 @@
+{
+    "mattermost_meet_plugin.header.label": "Rozpocznij spotkanie z Google Meet",
+    "mattermost_meet_plugin.message.pretext": "Rozpocząłeś spotkanie",
+    "mattermost_meet_plugin.message.title": "Google Meet",
+    "mattermost_meet_plugin.message.subtitle": "Nazwa spotkania",
+    "mattermost_meet_plugin.message.button": "DOŁĄCZ DO SPOTKANIA"
+}
