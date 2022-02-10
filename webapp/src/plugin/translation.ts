@@ -2,6 +2,7 @@ import en from 'i18n/en.json';
 import pt from 'i18n/pt_BR.json';
 import fr from 'i18n/fr_FR.json';
 import de from 'i18n/de_DE.json';
+import nl from 'i18n/nl_NL.json';
 
 export const getTranslations= (locale: string) => {
     switch (locale) {
@@ -29,6 +30,12 @@ export const getTranslations= (locale: string) => {
             return de;
         case 'de-LU':
             return de;
+        case 'nl':
+            return nl;
+        case 'nl-NL':
+            return nl;
+        case 'nl-BE':
+            return nl;
     }
     return en;
 }
