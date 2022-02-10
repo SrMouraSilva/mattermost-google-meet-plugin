@@ -1,0 +1,7 @@
+{
+    "mattermost_meet_plugin.header.label": "Start een Google Meet vergadering",
+    "mattermost_meet_plugin.message.pretext": "Ik heb een vergadering gestart",
+    "mattermost_meet_plugin.message.title": "Google Meet",
+    "mattermost_meet_plugin.message.subtitle": "Naam van vergadering",
+    "mattermost_meet_plugin.message.button": "DEELNEMEN"
+}
