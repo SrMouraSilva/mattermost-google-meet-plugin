@@ -1,0 +1,7 @@
+{
+    "mattermost_meet_plugin.header.label": "تماس گوگل میت را شروع کنید",
+    "mattermost_meet_plugin.message.pretext": "من جلسه را شروع کرده ام",
+    "mattermost_meet_plugin.message.title": "گوگل میت",
+    "mattermost_meet_plugin.message.subtitle": "نام:",
+    "mattermost_meet_plugin.message.button": "به جلسه بپیوندید"
+}
