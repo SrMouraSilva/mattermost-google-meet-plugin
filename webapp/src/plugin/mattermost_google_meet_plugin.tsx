@@ -10,8 +10,7 @@ import { getTranslations } from 'plugin/translation';
 import { PostTypeGoogleMeet } from 'component/post_type_google_meet';
 import { startCall } from './start_call';
 import { I18nProvider } from 'component/i18n_provider';
-import { getCurrentUserLocale } from 'mattermost-redux/selectors/entities/i18n'
-
+import { getCurrentUserLocale } from './mattermost-redux/selectors/entities/i18n'
 
 export class MattermostGoogleMeetPlugin implements Plugin {
     public async initialize(registry: PluginRegistry, store: Store<GlobalState, Action<Record<string, unknown>>>) {
@@ -32,15 +31,16 @@ export class MattermostGoogleMeetPlugin implements Plugin {
             </I18nProvider>
         );
 
-        // Maybe in future
-        // registry.registerSlashCommandWillBePostedHook(
-        //     (message, args) => {
-        //         if (message.startsWith('/meet')) {
-        //             this.startCall(args.channel_id)(store.dispatch, store.getState)
-        //             return {error: {message: 'rejected'}};
-        //         }
-        //     }
-        // );
+        // Registering a slash command "/meet" that starts a call
+        registry.registerSlashCommandWillBePostedHook(
+            (message, args) => {
+                if (message.startsWith('/meet')) {
+                    startCall(args.channel_id)(store.dispatch, store.getState);
+                    return true; // Prevent the message from being posted to the channel
+                }
+                return false; // Allow other messages to be posted
+            }
+        );
     }
 
     public async uninitialize() {}
